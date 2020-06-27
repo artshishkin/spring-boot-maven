@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.artarkatesoft</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>spring-boot-maven</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>maven-spring-boot</name>
     <description>Tutorial from StringFrameworkGuru - Maven for Spring Boot</description>
