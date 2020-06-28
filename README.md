@@ -24,6 +24,10 @@
 - By configuring `spring-boot-maven-plugin` we can add additional information to `build-info`.
 - We also can add information to info page using `info.*` - Arbitrary properties to add to the info endpoint.
 - And also by implementing `InfoContributor`.
+
+##113 Add git information to Maven build
+
+
  
 
 
