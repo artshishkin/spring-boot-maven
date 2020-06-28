@@ -27,6 +27,18 @@
 
 ##113 Add git information to Maven build
 
+##114 Multi-Module Spring Boot Projects
+!Warning
+- If you want some module to be simple `jar` (not uber-jar) and parent pom has plugin spring-boot-maven-plugin you will achieve an error
+```
+Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.3.1.RELEASE:repackage (repackage) on project web-model: Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.3.1.RELEASE:repackage failed: Unable to find main class
+``` 
+That's why you have to skip repackage module by
+```xml
+<properties>
+    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+</properties>
+```
 
  
 
